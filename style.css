@@ -1,0 +1,110 @@
+/* Reset some default styles */
+body, h1, h2, p {
+    margin: 0;
+    padding: 0;
+}
+body {
+    background-image:url(https://img.freepik.com/free-vector/abstract-blue-circle-black-background-technology_1142-12714.jpg); /* Replace with your image path */
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed; /* Optional: Fixed background */
+    font-family: 'Baskerville', serif;
+    color:black;
+    line-height: 1.6;
+}
+/* Basic styling */
+body {
+    font-family: 'Arial', sans-serif;
+    color: #a0c0de;
+    line-height: 1.6;
+}
+
+header {
+    color: #1d25b0;
+    text-align: right;
+}
+
+h1 {
+    font-size: 2.5rem;
+}
+
+nav ul {
+    list-style: none;
+    text-align: left;
+    padding: 20px;
+    background-color: rgba(46, 209, 215, 0.724);
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 8px;
+}
+
+nav a {
+    text-decoration: none;
+    color: #200d89;
+    font-weight: bold;
+    transition: color 0.3s;
+}
+
+nav a:hover {
+    color: #1d239b;
+}
+
+section {
+    padding: 40px;
+    margin: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 5px;
+}
+
+h2 {
+    font-size: 1.5rem;
+    color: #1f29bc;
+}
+
+.project {
+    margin-bottom: 20px;
+}
+
+/* Contact section */
+section#contact {
+    color: #2ca3d3b8;
+    padding: 40px;
+    text-align: center;
+}
+
+section#contact p {
+    margin-bottom: 10px;
+}
+
+footer {
+    text-align: center;
+    padding: 10px;
+    color: #ffffff;
+    font-size: 0.8rem;
+}
+#stude
+{
+    font-weight: 200;
+    font-size: medium;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+@media (max-width: 768px) {
+    header {
+        padding: 30px 0;
+    }
+
+    h1 {
+        font-size: 2rem;
+    }
+
+    nav ul {
+        padding: 10px;
+    }
+
+    section {
+        padding: 30px;
+    }
+}
